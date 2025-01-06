@@ -51,14 +51,14 @@
 		</section>
 		<div class="w-full max-w-xl rounded-lg bg-white p-4 shadow-lg">
 			<label for="file-upload" class="mb-2 block text-sm font-medium text-gray-700">
-				Upload Kindle My Clippings.txt Files
+				Upload Kindle "My Clippings.txt" file(s)
 			</label>
 			<input
 				type="file"
 				id="file-upload"
 				multiple
 				accept=".txt"
-				class="block w-full cursor-pointer rounded-lg border border-gray-300 text-sm text-gray-900"
+				class="border-secondary-500 text-surface file:text-surface focus:border-primary focus:shadow-inset relative m-0 block w-full min-w-0 flex-auto cursor-pointer rounded border border-solid bg-transparent bg-clip-padding px-3 py-1 text-base font-normal transition duration-300 ease-in-out file:-mx-3 file:-my-[0.32rem] file:me-3 file:cursor-pointer file:overflow-hidden file:rounded-none file:border-0 file:border-e file:border-solid file:border-inherit file:bg-blue-600 file:px-3 file:py-[0.32rem] file:text-white file:hover:bg-blue-700 focus:text-gray-700 focus:outline-none dark:border-white/70 dark:text-white file:dark:text-white"
 				on:change={handleFileUpload}
 			/>
 			<button
