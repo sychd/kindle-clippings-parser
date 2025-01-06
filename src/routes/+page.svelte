@@ -58,11 +58,11 @@
 				id="file-upload"
 				multiple
 				accept=".txt"
-				class="border-secondary-500 text-surface file:text-surface focus:border-primary focus:shadow-inset relative m-0 block w-full min-w-0 flex-auto cursor-pointer rounded border border-solid bg-transparent bg-clip-padding px-3 py-1 text-base font-normal transition duration-300 ease-in-out file:-mx-3 file:-my-[0.32rem] file:me-3 file:cursor-pointer file:overflow-hidden file:rounded-none file:border-0 file:border-e file:border-solid file:border-inherit file:bg-blue-600 file:px-3 file:py-[0.32rem] file:text-white file:hover:bg-blue-700 focus:text-gray-700 focus:outline-none dark:border-white/70 dark:text-white file:dark:text-white"
+				class="border-secondary-500 text-surface file:text-surface focus:border-primary focus:shadow-inset relative m-0 block w-full min-w-0 flex-auto cursor-pointer rounded-lg border border-solid bg-transparent bg-clip-padding px-3 py-1 text-sm font-normal transition duration-300 ease-in-out file:-mx-3 file:-my-[0.32rem] file:me-3 file:cursor-pointer file:overflow-hidden file:rounded-none file:border-0 file:border-e file:border-solid file:border-inherit file:bg-blue-600 file:px-3 file:py-[0.32rem] file:text-white file:hover:bg-blue-700 focus:text-gray-700 focus:outline-none dark:border-white/70 dark:text-white file:dark:text-white"
 				on:change={handleFileUpload}
 			/>
 			<button
-				class="mt-4 w-full rounded-lg bg-blue-600 py-2 text-white hover:bg-blue-700"
+				class="mt-4 w-full rounded-lg bg-blue-600 py-1 text-white hover:bg-blue-700"
 				on:click={processFiles}
 			>
 				Parse Files
@@ -90,8 +90,9 @@
 			{/if}
 		</div>
 
-		<div class="mt-8 flex w-full max-w-md items-center justify-center">
-			<a class="text-blue-600 hover:text-blue-700" href="https://chillyhill.me/">Denys Sych, 2025</a
+		<div class="mt-8 flex w-full max-w-md items-center justify-center text-sm">
+			Created by &nbsp;<a class="text-blue-600 hover:text-blue-700" href="https://chillyhill.me/"
+				>Denys Sych</a
 			>
 		</div>
 	</div>
