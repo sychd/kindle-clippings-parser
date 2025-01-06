@@ -42,10 +42,8 @@
 					upload your `.txt` file containing your Kindle excerpts, and the tool will:
 				</p>
 				<ul class=" list-inside list-disc text-lg text-gray-700">
-					<li>Extract the book title, author, and timestamps from each entry.</li>
-					<li>Organize the notes by book, with a header for each title.</li>
-					<li>Display the first and last highlight dates for each book.</li>
-					<li>List all your Kindle highlights and notes in order.</li>
+					<li>Extract the book title, author and clippings</li>
+					<li>List all your Kindle highlights and notes in order</li>
 				</ul>
 			</div>
 		</section>
